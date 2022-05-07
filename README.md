@@ -1,6 +1,6 @@
 # Miller's Rabin Primality Test
 
-## [Link](https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test)
+## [Wikipedia Link](https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test)
 
 ## How it works
 - Miller Rabin's primality test determines whether a number is likely to be prime or not
