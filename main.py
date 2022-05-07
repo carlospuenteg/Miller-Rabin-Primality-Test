@@ -6,11 +6,11 @@ n is the number to check
 k is the number of tests to run
 '''
 def isPrime(n, k=128):
-	# 2 and 3 are primes
+    # 2 and 3 are primes
     if n == 2 or n == 3: 
         return True
-	
-	# if n <= 1 or n is not divisible by 2, then n is not prime
+
+    # if n <= 1 or n is not divisible by 2, then n is not prime
     if n <= 1 or n % 2 == 0:
         return False
 
@@ -18,7 +18,7 @@ def isPrime(n, k=128):
     s = 0
     r = n - 1
 
-	# while r is even
+    # while r is even
     while ( r & 1 ) == 0:
         s += 1
         r //= 2 # r is floor divided by 2
